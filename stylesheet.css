@@ -54,6 +54,7 @@
 	margin: 2px ;
 	vertical-align: top;
 	text-align: left;
+	text-align: center ;
 }
 
 input {
@@ -77,4 +78,83 @@ font-size: 14px;
 color: #008000;
 text-align: center;
 outline: 0px solid #E6E6FA;
+margin : 2px;
+}
+
+.btnIngreso {
+  background: #23a34f;
+  background-image: -webkit-linear-gradient(top, #23a34f, #124f39);
+  background-image: -moz-linear-gradient(top, #23a34f, #124f39);
+  background-image: -ms-linear-gradient(top, #23a34f, #124f39);
+  background-image: -o-linear-gradient(top, #23a34f, #124f39);
+  background-image: linear-gradient(to bottom, #23a34f, #124f39);
+  -webkit-border-radius: 40;
+  -moz-border-radius: 40;
+  border-radius: 40px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 0px;
+  text-decoration: none;
+  height: 50px;
+}
+
+.btnIngreso:hover {
+  background: #20a896;
+  background-image: -webkit-linear-gradient(top, #20a896, #1c6363);
+  background-image: -moz-linear-gradient(top, #20a896, #1c6363);
+  background-image: -ms-linear-gradient(top, #20a896, #1c6363);
+  background-image: -o-linear-gradient(top, #20a896, #1c6363);
+  background-image: linear-gradient(to bottom, #20a896, #1c6363);
+  text-decoration: none;
+  height: 50px;
+}
+.inputGasto{
+	-webkit-border-radius: 27px;
+-moz-border-radius: 27px;
+border-radius: 27px;
+background-image: -moz-linear-gradient(left, #F4A460, #F4A460);
+background-image: -webkit-gradient(linear, left top, right top, color-stop(0.00, #F4A460), color-stop(1.0, #F4A460));
+border: 3px solid #800000;
+background-color: #DA70D6;
+padding: 10px;
+font-family: Verdana, Geneva, sans-serif;
+font-size: 12pt;
+color: #800000;
+text-align: center;
+outline: 0px solid #E6E6FA;
+margin: 2px;
+}
+
+.btnGasto {
+  background: #e38181;
+  background-image: -webkit-linear-gradient(top, #e38181, #8a2525);
+  background-image: -moz-linear-gradient(top, #e38181, #8a2525);
+  background-image: -ms-linear-gradient(top, #e38181, #8a2525);
+  background-image: -o-linear-gradient(top, #e38181, #8a2525);
+  background-image: linear-gradient(to bottom, #e38181, #8a2525);
+  -webkit-border-radius: 40;
+  -moz-border-radius: 40;
+  border-radius: 40px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 0px;
+  text-decoration: none;
+  height: 50px;
+}
+
+.btnGasto:hover {
+  background: #e02020;
+  background-image: -webkit-linear-gradient(top, #e02020, #661414);
+  background-image: -moz-linear-gradient(top, #e02020, #661414);
+  background-image: -ms-linear-gradient(top, #e02020, #661414);
+  background-image: -o-linear-gradient(top, #e02020, #661414);
+  background-image: linear-gradient(to bottom, #e02020, #661414);
+  text-decoration: none;
+  height: 50px;
 }
