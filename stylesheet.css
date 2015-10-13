@@ -3,6 +3,7 @@
 	width: 1000px;
 	text-align: center ;
 	border-radius: 2px;
+	font-family: "Ubuntu Light";
 }
 
 .up{
@@ -48,7 +49,7 @@
 
 .gastos {
 	width: 45%;
-	height: 200px ;
+	height: 300px ;
 	border: 2px solid black;
 	margin: 2px ;
 	vertical-align: top;
@@ -57,7 +58,23 @@
 
 input {
 	width: 200px ;
-	height: 20px ;
+	height: 15px ;
 	margin: auto ;
 	padding: 2px ;
+}
+
+.inputIngreso {
+-webkit-border-radius: 27px;
+-moz-border-radius: 27px;
+border-radius: 27px;
+background-image: -moz-linear-gradient(left, #98FB98, #98FB98);
+background-image: -webkit-gradient(linear, left top, right top, color-stop(0.00, #98FB98), color-stop(1.0, #98FB98));
+border: 3px solid #008000;
+background-color: #DA70D6;
+padding: 10px;
+font-family: Verdana, Geneva, sans-serif;
+font-size: 14px;
+color: #008000;
+text-align: center;
+outline: 0px solid #E6E6FA;
 }
