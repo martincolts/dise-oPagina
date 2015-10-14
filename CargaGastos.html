@@ -4,41 +4,60 @@
 	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 </head>
 <body>
-<div class="up"> <p>Carga tus gastos </p></div>
+<div class="up"> 
+<h1>Carga tus gastos </h1>
+</div>
 	<div class="center">
-	<p> Formulario para cargar los datos </p> 
-	<br>
-			<form class="gastos" action="demo_form.asp">
+	<h2> Formulario para cargar los datos </h2> 		
+	<table>
+	<tr>
+	<td class="td" id="fondoGasto">
+	<div style="vertical-align:top">
+		<h1>Gastos</h1>
+		<form action="demo_form.asp">
 			<br>
-  				Fecha: <input class="inputIngreso" type="date" name="fname">
-  			<br>
-  				Tipo: <input class="inputIngreso" type="text" name="lname">
-  			<br>
-  				Comentario: <input class="inputIngreso" type="text" name="lname">
-  			<br>
-  				Monto: <input class="inputIngreso" type="text" name="lname">
-  			<br>
-  				<input class="btnIngreso" type="submit" value="Confirmar">
-			</form>
-		
-		<div class="gastos">
+		  	Fecha:
+		  	<br> 
+		  	<input class="inputIngreso" type="date" name="fname">
+		  	<br>
+		  	Tipo: 
+		  	<br>
+		  	<input class="inputIngreso" type="text" name="lname">
+		  	<br>
+		  	Comentario: 
+		  	<br>
+		  	<input class="inputIngreso" type="text" name="lname">
+		  	<br>
+		  	Monto:
+		  	<br>
+		  	 <input class="inputIngreso" type="text" name="lname">
+		  	<br>
+		  	<input class="btnIngreso" type="submit" value="Confirmar">
+		</form>
+		</div>
+	</td>
+	<td class="td" id="fondoIngreso">
+	<div style="vertical-align:top">
+		<h1>Ingresos</h1>
+			<form>
 			<br>
-				Fecha: <input class="inputGasto" type="date" name="fechaIngreso">
+				Fecha: 
+				<br>
+				<input class="inputGasto" type="date" name="fechaIngreso">
 			<br>
-  				Monto: <input class="inputGasto" type="text" name="lname">
+  				Monto: 
+  				<br>
+  				<input class="inputGasto" type="text" name="lname">
   			<br>
   				<input class="btnGasto" type="submit" value="Confirmar">
 			</form>
-		</div>
-		<br>
-		<div class="gastos">
-		</div>
-		<div class="gastos">
-		</div>
-
 	</div>
-	
-	<div class="down"> Página desarrollada por José Martín Lopez </div>
+	</td>
+	</tr>	
+	</table>
+	</div>
+	<div class="down"> Página desarrollada por José Martín Lopez 
+	</div>
 </body>
 </html>
 
