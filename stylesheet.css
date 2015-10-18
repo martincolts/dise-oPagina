@@ -1,30 +1,34 @@
 *{
 	font-family: "Ubuntu Light";
 }
-div div h1{
-	font-size: 20px ;
-	text-align: left;
-	margin: 2px ;
-}
 
 .up{
 	background-color: #237EF5;
 	width: 80%;
+	height: 175px;
 	font-family: Tahoma ;
 	font-size: 30px;
 	border-radius: 3px ;
 	color : #FFFFFF;
-	vertical-align: center ;
-	margin: auto ;
-	text-align: center ;
-	height: 100px;
+	margin:auto;
+	text-align: center;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(35,58,207,1);
+	-moz-box-shadow: 0px 0px 15px 0px rgba(35,58,207,1);
+	box-shadow: 0px 0px 15px 0px rgba(35,58,207,1);
+}
+
+.title1 {
+	position: absolute;
+	margin-top : 20px;
+	
 }
 
 .center{
 
 	text-align: center ;
 	width: 70%;
-	margin:auto;
+	float: left;
+	
 }
 
 input {
@@ -216,28 +220,46 @@ margin-left: 25% ;
 #titleSector{
 	text-align: center ;
 }
-table {
-	width: 100%;
-	height: 100%;
-	margin:auto;
-}
 
 .td{
 	width: 50% ;
 	vertical-align: top ;
 	text-align: left;
-	s
 }
 
 #fondoIngreso{
 	background-color: #E3F2D3;
 	color : #012B07 ;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(35,58,207,1);
+-moz-box-shadow: 0px 0px 15px 0px rgba(35,58,207,1);
+box-shadow: 0px 0px 15px 0px rgba(35,58,207,1);
 }
 
 #fondoGasto{
 	background-color: #F2D3D3;
 	color: #2B0101;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(35,58,207,1);
+-moz-box-shadow: 0px 0px 15px 0px rgba(35,58,207,1);
+box-shadow: 0px 0px 15px 0px rgba(35,58,207,1);
 }
 form{
 	margin :10%;
+}
+
+.down{
+
+	text-align: center ;
+	clear: both;
+	margin-top: 20px ; 
+	font-size: 10px ;
+}
+
+.opciones {
+	float : right;
+	border: 2px solid black;
+	width: 29% ;
+	height: 800px ;
+}
+body{
+	display: inline ;
 }
