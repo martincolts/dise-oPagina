@@ -3,8 +3,9 @@
 }
 
 .up{
+	position: relative;
 	background-color: #237EF5;
-	width: 80%;
+	width: 100%;
 	height: 175px;
 	font-family: Tahoma ;
 	font-size: 30px;
@@ -20,15 +21,14 @@
 .title1 {
 	position: absolute;
 	margin-top : 20px;
-	
+
 }
 
 .center{
-
 	text-align: center ;
-	width: 70%;
+	width: 600px;
+
 	float: left;
-	
 }
 
 input {
@@ -110,7 +110,7 @@ box-shadow: 0px 0px 15px 0px rgba(35,58,207,1);
   height: 50px;
 margin-left: 25% ;
  margin-top: 5px ;
-  
+
 }
 
 .btnGasto:hover {
@@ -222,44 +222,79 @@ margin-left: 25% ;
 }
 
 .td{
-	width: 50% ;
 	vertical-align: top ;
+	margin-top: 50px;
 	text-align: left;
+	width: 49%;
+	position: inherit;
+	margin: 0px;
+	padding: 0px;
 }
 
 #fondoIngreso{
 	background-color: #E3F2D3;
 	color : #012B07 ;
-	-webkit-box-shadow: 0px 0px 15px 0px rgba(35,58,207,1);
--moz-box-shadow: 0px 0px 15px 0px rgba(35,58,207,1);
-box-shadow: 0px 0px 15px 0px rgba(35,58,207,1);
+	width: auto;
+  margin: none;
 }
 
 #fondoGasto{
 	background-color: #F2D3D3;
 	color: #2B0101;
-	-webkit-box-shadow: 0px 0px 15px 0px rgba(35,58,207,1);
--moz-box-shadow: 0px 0px 15px 0px rgba(35,58,207,1);
-box-shadow: 0px 0px 15px 0px rgba(35,58,207,1);
+	width: auto;
+	margin: none;
 }
+
 form{
 	margin :10%;
 }
 
 .down{
-
 	text-align: center ;
 	clear: both;
-	margin-top: 20px ; 
+	margin-top: 20px ;
 	font-size: 10px ;
 }
 
 .opciones {
-	float : right;
-	border: 2px solid black;
-	width: 29% ;
-	height: 800px ;
+	float: right;
+	width: 400px;
+	height: 518px;
+	background-color: #426134 ;
+	border-radius: 2px;
 }
+table {
+	width: 100%;
+	height: 100%;
+		background-color: #E3F2D3;
+}
+
 body{
-	display: inline ;
+	width: 1000px;
+}
+.tituloTabla{
+	position: absolute;
+	margin-left: 120px;
+}
+.botonOpciones {
+	width: 100% ;
+	height: 50px ;
+	background-color: #4E703E ;
+	color : white ;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: left;
+	text-decoration: none;
+	border: 0px;
+}
+.botonOpciones:hover{
+	width: 100% ;
+	height: 50px ;
+	background-color: #5A8049 ;
+	font-weight: bold;
+	color : white ;
+	font-size: 20px;
+	text-align: left;
+	text-decoration: none;
+	border: 0px;
 }
